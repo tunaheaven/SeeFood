@@ -13,6 +13,7 @@
 		A5F74455272380590099CF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F74453272380590099CF5A /* Main.storyboard */; };
 		A5F744572723805C0099CF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F744562723805C0099CF5A /* Assets.xcassets */; };
 		A5F7445A2723805C0099CF5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F744582723805C0099CF5A /* LaunchScreen.storyboard */; };
+		A5F74462272380EE0099CF5A /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A5F74461272380EE0099CF5A /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A5F744562723805C0099CF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F744592723805C0099CF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5F7445B2723805C0099CF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F74461272380EE0099CF5A /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A5F744562723805C0099CF5A /* Assets.xcassets */,
 				A5F744582723805C0099CF5A /* LaunchScreen.storyboard */,
 				A5F7445B2723805C0099CF5A /* Info.plist */,
+				A5F74461272380EE0099CF5A /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F74452272380590099CF5A /* ViewController.swift in Sources */,
+				A5F74462272380EE0099CF5A /* Inceptionv3.mlmodel in Sources */,
 				A5F7444E272380590099CF5A /* AppDelegate.swift in Sources */,
 				A5F74450272380590099CF5A /* SceneDelegate.swift in Sources */,
 			);
